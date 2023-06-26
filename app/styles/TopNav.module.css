@@ -1,0 +1,80 @@
+.topNavBar {
+    display: flex;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    z-index: 1000;
+    margin: 0;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    transition: all 1s;
+}
+.topMenu {
+    width: 90%;
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, 0%);
+}
+.scrolled {
+    top: -20px !important;
+    background-color: #ffffff5e;
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 5px rgba(8, 3, 3, 0.11);
+  }
+.topMenu ul {
+    margin: 0;
+    padding: 0 10px;
+}
+.topMenu li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.topMenu li:first-child {
+    position: absolute;
+    left: 40px;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.topMenu li:first-child img {
+    height: 25px;
+}
+.topMenu li:last-child {
+    text-align: center;
+    position: absolute;
+    padding: 0;
+    right: 10%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    display: none;
+}
+.topMenu li a{
+    font-size: 13px;
+}
+.topMenu li a:hover {
+    color: #f75023;
+}
+.topMenu li a.active {
+    color: #f75023;
+}
+
+@media (min-width: 1024px) {
+    .topMenu li {
+        padding: 0 20px;
+    }
+    .topMenu li:first-child {
+        display: block;
+    }
+    .topMenu li:last-child {
+        display: block;
+    }
+}

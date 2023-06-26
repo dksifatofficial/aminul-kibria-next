@@ -1,0 +1,38 @@
+.contactContainer {
+  width: 100%;
+  margin-top: 130px;
+  position: relative;
+  padding: 0 1rem;
+}
+.img1 {
+  position: absolute;
+  left: 0;
+  top: -60px;
+  display: none;
+}
+.img2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .contactContainer {
+    padding: 0 5rem;
+  }
+  .header p {
+    padding: 0 12rem;
+  }
+  .img1 {
+    display: block;
+  }
+  .img2 {
+    display: block;
+  }
+}
+@media (min-width: 1280px) {
+  .header p {
+    padding: 0 20rem;
+  }
+}

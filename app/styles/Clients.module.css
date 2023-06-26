@@ -1,0 +1,36 @@
+.comment {
+    width: 430px;
+    display: grid;
+    justify-content: center;
+    height: 300px;
+    position: relative;
+}
+.icon {
+    text-align: center;
+    width: 100%;
+    font-size: 70px;
+    color: #f75023;
+}
+.comment p {
+    width: 430px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    padding: 0 20px;
+}
+.auther {
+    height: 75px;
+    display: grid;
+    justify-content: center;
+}
+
+@media (min-width: 1024px) {
+    .comment {
+        width: 700px;
+        margin: 0 10px;
+    }
+    .comment p {
+        padding: 0 30px;
+        width: 680px;
+    }
+}

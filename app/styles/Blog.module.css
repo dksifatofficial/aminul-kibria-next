@@ -1,0 +1,30 @@
+.blogContainer {
+  width: 100%;
+  margin-top: 130px;
+  position: relative;
+  padding: 0 1rem;
+}
+.img10 {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  display: none;
+}
+.img11 {
+  position: absolute;
+  right: 0;
+  top: -170px;
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .blogContainer {
+    padding: 0 5rem;
+  }
+  .img10 {
+    display: block;
+  }
+  .img11 {
+    display: block;
+  }
+}

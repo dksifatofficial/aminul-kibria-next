@@ -1,0 +1,14 @@
+.mapContainer {
+  width: 100%;
+  padding: 100px 20px;
+}
+.map {
+  height: 400px;
+  border-radius: 10px;
+}
+
+@media (min-width: 1024px) {
+  .mapContainer {
+    padding: 100px 200px;
+  }
+}

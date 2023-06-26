@@ -1,0 +1,22 @@
+.header {
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+.header h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  color: black;
+}
+.header h3 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  color: #f75023;
+}
+.header p {
+  font-size: 18px;
+  font-style: normal;
+  color: #777a8b;
+}

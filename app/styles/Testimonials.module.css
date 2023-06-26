@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.testimonials {
+  position: relative;
+  overflow: hidden;
+  height: 380px;
+  width: 430px;
+  padding: 0 5px;
+}
+.row {
+  display: flex;
+  width: fit-content;
+  transition: transform 0.5s ease;
+  height: 340px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  font-size: 15px;
+  color: #f75023;
+  border: 2px solid #f7a223;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+  .testimonials {
+    padding: 0;
+    width: 100%;
+  }
+}
+

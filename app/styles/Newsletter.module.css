@@ -1,0 +1,42 @@
+.box {
+  margin: 10rem 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #8456f0;
+  border-radius: 10px;
+  position: relative;
+}
+.text {
+  float: left;
+  flex: 60%;
+  padding: 50px 50px 0 50px;
+}
+.text h2 {
+  color: #ffffff;
+  font-weight: 700;
+}
+.text h4 {
+  color: #ffffff;
+}
+.text p {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.form {
+  float: right;
+  flex: 40%;
+  background-color: transparent;
+  padding: 20px 50px 0 50px;
+}
+@media (min-width: 1024px) {
+  .box {
+    margin: 10rem 5rem;
+  }
+  .text {
+    padding: 80px;
+  }
+  .form {
+    padding: 50px 80px 0 80px;
+  }
+}

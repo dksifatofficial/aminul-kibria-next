@@ -1,0 +1,155 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: grid;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.bannerLeft {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-top: 7rem;
+  text-align: center;
+}
+.img2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -111;
+  opacity: 0.5;
+  display: none;
+}
+.img3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -111;
+  opacity: 0.5;
+  display: none;
+}
+.bannerLeft h3 {
+  color: #f75023;
+  font-weight: 500;
+  padding: 0;
+}
+.bannerLeft h1 {
+  font-family: Gabriola;
+  font-weight: bold;
+  color: #000000;
+  font-size: 3rem;
+  padding: 0;
+}
+.bannerLeft h4 .cd {
+  color: #30c367;
+}
+.bannerLeft h4 .bd {
+  color: #8e78f0;
+}
+.bannerLeft p {
+  padding: 0 1rem;
+}
+.headerSocial {
+  width: 100%;
+  display: grid;
+  margin-top: 2rem;
+  justify-content: center;
+}
+.sIcon {
+  margin-top: 2rem;
+}
+.bannerRight {
+  margin-top: 1rem;
+  width: 100%;
+  height: 480px;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.myPic {
+  width: 340px;
+  height: 430px;
+  position: absolute;
+}
+.logoPic {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  animation-name: logoPicture;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-duration: alternate-reverse;
+  animation-timing-function: linear;
+  display: none;
+}
+@keyframes logoPicture {
+  0% {
+    left: 0px;
+    top: 50px;
+  }
+  50% {
+    left: 0px;
+    top: 80px;
+  }
+  100% {
+    left: 0px;
+    top: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 3rem;
+    display: block;
+  }
+  .bannerLeft {
+    width: 50%;
+    padding: 3rem 4rem 0 4rem;
+    float: left;
+    text-align: left;
+    margin-top: 7rem;
+  }
+  .bannerLeft h1 {
+    font-size: 5rem;
+  }
+  .bannerLeft p {
+    padding: 0;
+    text-align: left;
+  }
+  .img2 {
+    display: block;
+  }
+  .img3 {
+    display: block;
+  }
+  .bannerRight {
+    margin-top: 7rem;
+    display: flex;
+    width: 50%;
+    justify-content: left;
+    padding-left: 20px;
+  }
+  .logoPic {
+    display: block;
+  }
+  .headerSocial {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    margin-top: 0;
+    justify-content: flex-start;
+  }
+  .sIcon {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    padding-left: 6rem;
+  }
+  .bannerLeft p {
+    width: 25rem;
+  }
+}

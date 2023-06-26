@@ -1,0 +1,53 @@
+.portfilioContainer {
+  width: 100%;
+  margin-top: 6rem;
+  position: relative;
+  z-index: 1;
+  padding: 0;
+}
+.header p {
+  padding: 0 0.5rem;
+}
+.img4 {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left: 0;
+  display: none;
+}
+.img5 {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  right: 0;
+  bottom: -130px;
+  z-index: -1;
+  display: none;
+}
+.menu {
+  margin: 3rem 0;
+}
+
+@media (min-width: 1024px) {
+  .portfilioContainer {
+    padding: 2rem 5rem;
+  }
+  .header p {
+    padding: 0 4rem;
+  }
+  .img4 {
+    display: block;
+  }
+  .img5 {
+    display: block;
+  }
+  .header p {
+    padding: 0 12rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header p {
+    padding: 0 20rem;
+  }
+}

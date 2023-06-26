@@ -1,0 +1,11 @@
+.login {
+    padding: 30px 30px 0px 30px;
+    margin-top: 2rem
+}
+.login h1 {
+    padding-top: 20px;
+}
+.back {
+    margin-left: -30px;
+    color: rgb(106, 109, 109);
+}

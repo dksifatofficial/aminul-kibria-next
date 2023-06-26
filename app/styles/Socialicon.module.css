@@ -1,0 +1,28 @@
+
+/* .socialIcon ul {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+} */
+.socialIcon {
+    width: 12rem;
+    margin-top: -0.7rem;
+}
+.socialIcon ul {
+    width: 100%;
+    display: flex;
+    margin-left: -1.1rem;
+    justify-content: space-between;
+}
+.socialIcon li { 
+    display: inline-block;
+    font-size: 18px;
+}
+.socialIcon li a {
+    color: rgb(3, 104, 95);
+}
+.socialIcon li a:hover {
+    color: rgb(5, 148, 136);
+}

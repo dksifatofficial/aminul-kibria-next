@@ -12,7 +12,7 @@ import TopContainer from "./components/TopContainer";
 
 function Home() {
   return (
-    <main>
+    <main >
       <TopContainer />
       <Qualitys />
       <AboutMe />

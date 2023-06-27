@@ -7,4 +7,6 @@
     },
     "javascript.validate.enable": true,
     "typescript.validate.enable": true,
+    "css.validate": false,
+    "tailwindCSS.emmetCompletions": true,
 }

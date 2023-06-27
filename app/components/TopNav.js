@@ -3,9 +3,10 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import AKicon from "../assets/icon/ak.png";
-import classes from "../styles/TopNav.module.css";
 // import Account from "./Account";
 import Image from "next/image";
+import Buttons from "./theme/Buttons";
+import classes from '../styles/TopNav.module.css'
 
 function TopNav() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -14,7 +15,7 @@ function TopNav() {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
 
-      if (scrollPosition > 1) {
+      if (scrollPosition > 70) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
@@ -29,9 +30,8 @@ function TopNav() {
   }, []);
 
   return (
-    <div className={classes.topNavBar}>
-      <div
-        className={`${classes.topMenu} ${isScrolled ? classes.scrolled : ""}`}
+    <div className="flex flex-wrap fixed z-50 bg-white w-full text-center transition-all duration-[1s] mt-5 ">
+      <div className={`${classes.topMenu} ${isScrolled? classes.scrolled : ""}`}
       >
         <ul>
           <li>
@@ -60,9 +60,9 @@ function TopNav() {
           {/* <li>
             <a href="#downloading">Download CV</a>
           </li> */}
-          {/* <li>
-            <Account />
-          </li> */}
+          <li>
+            <Buttons />
+          </li>
         </ul>
       </div>
     </div>

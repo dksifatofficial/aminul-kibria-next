@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import classes from "../styles/Footer.module.css";
 
 function Footer() {
@@ -8,23 +8,23 @@ function Footer() {
         <div className={classes.footerLeft}>
           <p>
             Developed with love by{" "}
-            <a href="#banner">
+            <Link href="/">
               <span>
                 <b>Aminul Kibria</b>
               </span>
-            </a>{" "}
+            </Link>{" "}
             © 2023
           </p>
         </div>
         <div className={classes.footerRight}>
           <ul>
             <li>
-              <Link to="/TermsCondition">
+              <Link href="/termscondition">
                 <p>Terms & Condition</p>
               </Link>
             </li>
             <li>
-              <Link to="/privacyPolicy">
+              <Link href="/policy">
                 <p>Privacy Policy</p>
               </Link>
             </li>

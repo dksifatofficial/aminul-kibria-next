@@ -9,12 +9,10 @@ import Qualitys from "./components/Qualitys";
 import Services from "./components/Services";
 import TestimonialContainer from "./components/TestimonialContainer";
 import TopContainer from "./components/TopContainer";
-import TopNav from "./components/TopNav";
 
 function Home() {
   return (
-    <div>
-      <TopNav />
+    <main>
       <TopContainer />
       <Qualitys />
       <AboutMe />
@@ -26,7 +24,7 @@ function Home() {
       {/* <Newsletter /> */}
       {/* <Contact /> */}
       {/* <Map /> */}
-    </div>
+    </main>
   );
 }
 

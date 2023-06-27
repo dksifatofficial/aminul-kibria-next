@@ -1,7 +1,7 @@
-'use client'
+"use client";
 
-import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import AKicon from "../assets/icon/ak.png";
 import classes from "../styles/TopNav.module.css";
 // import Account from "./Account";
@@ -30,11 +30,13 @@ function TopNav() {
 
   return (
     <div className={classes.topNavBar}>
-      <div className={`${classes.topMenu} ${isScrolled ? classes.scrolled : ""}`}>
+      <div
+        className={`${classes.topMenu} ${isScrolled ? classes.scrolled : ""}`}
+      >
         <ul>
           <li>
             <Link href={"https://aminulkibria.com"} target="_blank">
-              <Image src={AKicon} alt="" width='25' height='10' />
+              <Image src={AKicon} alt="" width="25" height="10" />
             </Link>
           </li>
           <li>

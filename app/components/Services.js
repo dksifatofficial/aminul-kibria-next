@@ -25,7 +25,7 @@ function Services() {
       </Header>
 
       <Service>
-        <Image className={classes.img} src={image3} alt="" />
+        <Image className={classes.img} src={image3} alt="" height="70" width="50" />
         <div className={classes.text}>
           <h3>Front-End Development</h3>
           <h4>
@@ -41,7 +41,7 @@ function Services() {
       </Service>
 
       <Service>
-        <Image className={classes.img} src={image4} alt="" />
+        <Image className={classes.img} src={image4} alt="" height="70" width="50" />
         <div className={classes.text}>
           <h3>Landing Page</h3>
           <h4>
@@ -56,7 +56,7 @@ function Services() {
       </Service>
 
       <Service>
-        <Image className={classes.img} src={image5} alt="" />
+        <Image className={classes.img} src={image5} alt="" height="70" width="50" />
         <div className={classes.text}>
           <h3>Web Design</h3>
           <h4>
@@ -71,7 +71,7 @@ function Services() {
       </Service>
 
       <Service>
-        <Image className={classes.img} src={image6} alt="" />
+        <Image className={classes.img} src={image6} alt="" height="70" width="50" />
         <div className={classes.text}>
           <h3>Web Development</h3>
           <h4>

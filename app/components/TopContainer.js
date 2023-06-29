@@ -8,7 +8,7 @@ import Socialicon from "./Socialicon";
 
 function TopContainer() {
   return (
-    <div className="container" id="banner">
+    <div className="w-full h-auto grid justify-center border border-solid border-[rgba(0,0,0,0)] lg:block lg:pl-12 xl:pl-24" id="banner">
       <Image
         className="absolute z-[-111] opacity-50 hidden right-0 top-0 lg:block lg:opacity-25"
         src={image2}

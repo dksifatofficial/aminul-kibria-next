@@ -10,7 +10,6 @@ import image6 from "../assets/image/project_012.jpg";
 import image7 from "../assets/image/project_007.jpg";
 import image8 from "../assets/image/project_008.jpg";
 import image9 from "../assets/image/project_011.jpg";
-import classes from "../styles/Portfolios.module.css";
 import Portfolio from "./Portfolio";
 import Popup from "./popup/Popup";
 import Image from "next/image";
@@ -26,14 +25,14 @@ function Portfolios() {
   };
 
   return (
-    <div className={classes.portfolios}>
+    <div className="w-full h-auto flex flex-wrap justify-around">
       <div
         onClick={() =>
           handlePopupToggle(<Image src={image1} alt="project-img" />)
         }
       >
         <Portfolio>
-          <Image className={classes.img} src={image1} alt="project-img" />
+          <Image src={image1} alt="project-img" height='400' width='600' />
         </Portfolio>
       </div>
 
@@ -43,7 +42,7 @@ function Portfolios() {
         }
       >
         <Portfolio>
-          <Image className={classes.img} src={image2} alt="project-img" />
+          <Image src={image2} alt="project-img" height='400' width='900' />
         </Portfolio>
       </div>
 
@@ -53,7 +52,7 @@ function Portfolios() {
         }
       >
         <Portfolio>
-          <Image className={classes.img} src={image3} alt="project-img" />
+          <Image src={image3} alt="project-img" height='400' width='900' />
         </Portfolio>
       </div>
 
@@ -63,7 +62,7 @@ function Portfolios() {
         }
       >
         <Portfolio>
-          <Image className={classes.img} src={image4} alt="project-img" />
+          <Image src={image4} alt="project-img" height='400' width='900' />
         </Portfolio>
       </div>
 
@@ -73,7 +72,7 @@ function Portfolios() {
         }
       >
         <Portfolio>
-          <Image className={classes.img} src={image5} alt="project-img" />
+          <Image src={image5} alt="project-img" height='400' width='900' />
         </Portfolio>
       </div>
 
@@ -83,7 +82,7 @@ function Portfolios() {
         }
       >
         <Portfolio>
-          <Image className={classes.img} src={image6} alt="project-img" />
+          <Image src={image6} alt="project-img" height='400' width='900' />
         </Portfolio>
       </div>
 
@@ -93,7 +92,7 @@ function Portfolios() {
         }
       >
         <Portfolio>
-          <Image className={classes.img} src={image7} alt="project-img" />
+          <Image src={image7} alt="project-img" height='400' width='900' />
         </Portfolio>
       </div>
 
@@ -103,7 +102,7 @@ function Portfolios() {
         }
       >
         <Portfolio>
-          <Image className={classes.img} src={image8} alt="project-img" />
+          <Image src={image8} alt="project-img" height='400' width='900' />
         </Portfolio>
       </div>
 
@@ -113,7 +112,7 @@ function Portfolios() {
         }
       >
         <Portfolio>
-          <Image className={classes.img} src={image9} alt="project-img" />
+          <Image src={image9} alt="project-img" height='400' width='900' />
         </Portfolio>
       </div>
 

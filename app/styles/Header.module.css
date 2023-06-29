@@ -1,22 +1,12 @@
 .header {
-  text-align: center;
-  width: 100%;
-  position: relative;
+  @apply text-center w-full relative;
 }
 .header h2 {
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 600;
-  color: black;
+  @apply text-[40px] not-italic font-semibold text-gray-900;
 }
 .header h3 {
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 500;
-  color: #f75023;
+  @apply text-[25px] not-italic font-medium text-[#f75023];
 }
 .header p {
-  font-size: 18px;
-  font-style: normal;
-  color: #777a8b;
+  @apply text-lg not-italic text-[#777a8b];
 }

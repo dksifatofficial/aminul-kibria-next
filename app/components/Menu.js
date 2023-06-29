@@ -1,9 +1,7 @@
-import classes from "../styles/Menu.module.css";
-
-function Menu({ className, children, ...rest }) {
+function Menu({className, children }) {
   return (
-    <div className={classes.portfolioMenu}>
-      <ul>{children}</ul>
+    <div className={`${"w-full text-center flex justify-center p-0"} ${className}`}>
+      <ul className="w-60 flex justify-around p-0">{children}</ul>
     </div>
   );
 }

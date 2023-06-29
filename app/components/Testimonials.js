@@ -1,8 +1,7 @@
-'use client'
+"use client";
 
-import { FaCircleDot } from "react-icons/fa";
 import { useEffect, useState } from "react";
-import classes from "../styles/Testimonials.module.css";
+import { FaCircle } from "react-icons/fa";
 import { Client1, Client2, Client3 } from "./Clients";
 
 const Testimonials = () => {
@@ -35,13 +34,11 @@ const Testimonials = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isMouseOver, isReversed]);
 
-  
-
   return (
-    <div className={classes.container}>
-      <div className={classes.testimonials}>
+    <div className="w-full flex justify-center flex-wrap lg:w-full">
+      <div className="relative overflow-hidden h-[380px] w-[430px] px-[5px] py-0 lg:w-full lg:p-0">
         <div
-          className={classes.row}
+          className="transition-transform duration-[0.5s] ease-[ease] h-[340px] w-full flex justify-between"
           style={{
             transform: `translateX(calc(-${(currentSlide - 1) * 100}% - ${
               (currentSlide - 1) * 10
@@ -55,15 +52,24 @@ const Testimonials = () => {
             <div key={index}>{slide}</div>
           ))}
         </div>
-        <div className={classes.buttons}>
-          <div className={classes.button} onClick={() => setCurrentSlide(1)}>
-            <faCircleDot />
+        <div className="flex justify-center mt-2.5">
+          <div
+            className="flex justify-center text-[15px] text-[#f75023] mx-[5px] my-0 p-0.5 rounded-[50%] border-2 border-solid border-[#f7a223]"
+            onClick={() => setCurrentSlide(1)}
+          >
+            <FaCircle />
           </div>
-          <div className={classes.button} onClick={() => setCurrentSlide(2)}>
-            <faCircleDot />
+          <div
+            className="flex justify-center text-[15px] text-[#f75023] mx-[5px] my-0 p-0.5 rounded-[50%] border-2 border-solid border-[#f7a223]"
+            onClick={() => setCurrentSlide(2)}
+          >
+            <FaCircle />
           </div>
-          <div className={classes.button} onClick={() => setCurrentSlide(3)}>
-            <faCircleDot />
+          <div
+            className="flex justify-center text-[15px] text-[#f75023] mx-[5px] my-0 p-0.5 rounded-[50%] border-2 border-solid border-[#f7a223]"
+            onClick={() => setCurrentSlide(3)}
+          >
+            <FaCircle />
           </div>
         </div>
       </div>

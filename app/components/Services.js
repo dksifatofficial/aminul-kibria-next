@@ -11,14 +11,14 @@ import Image from "next/image";
 
 function Services() {
   return (
-    <div className={classes.servicesContainer} id="services">
-      <Image className={classes.icon9} src={image1} alt="icon" />
-      <Image className={classes.icon10} src={image2} alt="icon" />
+    <div className='flex flex-wrap w-full relative z-[1] mt-[130px] p-0 lg:px-20 lg:py-0' id="services">
+      <Image className="absolute z-[-1] hidden left-0 top-[100px] lg:block" src={image1} alt="icon" />
+      <Image className="absolute top-[-180px] z-[-1] hidden right-0 lg:block" src={image2} alt="icon" />
 
-      <Header className={classes.header}>
+      <Header className="lg:mb-14">
         <h3>Services</h3>
-        <h2>What I Do for Clients</h2>
-        <p>
+        <h2 className="dark:text-gray-100">What I Do for Clients</h2>
+        <p className="px-4 py-0 lg:px-16 lg:py-0 xl:px-80 xl:py-0">
           My expertise in website design allows me to provide clients with a
           wide range of design options tailored to their specific needs.
         </p>

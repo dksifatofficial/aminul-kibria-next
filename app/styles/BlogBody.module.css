@@ -1,50 +1,19 @@
-.bodyContainer {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 4rem;
-}
+
 .bodyAll {
-  width: 100%;
-  padding: 1rem;
+  @apply w-full p-4 lg:w-[33.333%] lg:p-4;
 }
 .cover {
-  width: 100%;
-  height: 250px;
-  overflow: hidden;
-  border-radius: 10px;
-  position: relative;
+  @apply w-full h-[250px] overflow-hidden relative rounded-[10px];
 }
 .blogDate {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  font-weight: 600;
-  font-size: 18px;
-  text-shadow: 1px 2px 5px black;
-  color: #ffffff;
+  @apply absolute font-semibold text-lg text-gray-100 right-[15px] top-[15px] drop-shadow-2xl;
 }
 .coverImg {
-  height: auto;
-  width: 100%;
-  position: absolute;
-  transition: 0.5s linear;
-}
-.coverImg:hover {
-  transform: scale(1.1);
+  @apply h-auto w-full absolute transition-[0.5s] ease-linear duration-500 hover:scale-110;
 }
 .bodyAll h5 {
-  padding-top: 20px;
-  color: #f75023;
+  @apply text-[#f75023] pt-5;
 }
 .bodyAll h4 {
-  color: #252323;
-  font-weight: 600;
-}
-
-@media (min-width: 1024px) {
-  .bodyAll {
-    width: 33.333%;
-    padding: 1rem;
-  }
+  @apply text-gray-900 font-semibold;
 }

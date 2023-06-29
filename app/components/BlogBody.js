@@ -20,7 +20,7 @@ function BlogBody() {
   };
 
   return (
-    <div className={classes.bodyContainer}>
+    <div className="w-full flex flex-wrap pt-16">
       <div
         className={classes.bodyAll}
         onClick={() => handlePopupToggle(<PopupBlog1 />)}
@@ -30,7 +30,7 @@ function BlogBody() {
           <span className={classes.blogDate}>25 Jan</span>
         </div>
         <h5>Web development</h5>
-        <h4>Transforming Designs into Seamless User Experiences</h4>
+        <h4 className="dark:text-gray-200">Transforming Designs into Seamless User Experiences</h4>
       </div>
 
       <div
@@ -42,7 +42,7 @@ function BlogBody() {
           <span className={classes.blogDate}>27 Feb</span>
         </div>
         <h5>Branding</h5>
-        <h4>Crafting Powerful Identities for Lasting Impressions</h4>
+        <h4 className="dark:text-gray-200">Crafting Powerful Identities for Lasting Impressions</h4>
       </div>
 
       <div
@@ -54,7 +54,7 @@ function BlogBody() {
           <span className={classes.blogDate}>11 Mar</span>
         </div>
         <h5>Social Media</h5>
-        <h4>Driving Engagement and Results Through Strategies</h4>
+        <h4 className="dark:text-gray-200">Driving Engagement and Results Through Strategies</h4>
       </div>
 
       {popups.map((content, index) => (

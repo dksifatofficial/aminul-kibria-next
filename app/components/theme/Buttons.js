@@ -6,7 +6,7 @@ export default function Buttons() {
   const [colorTheme, setTheme] = useDarkMode();
 
   return (
-    <div>
+    <div className="mt-[5px]">
       {colorTheme === "light" ? (
         <svg
           onClick={() => setTheme("light")}

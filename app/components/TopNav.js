@@ -5,8 +5,8 @@ import { useEffect, useState } from "react";
 import AKicon from "../assets/icon/ak.png";
 // import Account from "./Account";
 import Image from "next/image";
+import classes from "../styles/TopNav.module.css";
 import Buttons from "./theme/Buttons";
-import classes from '../styles/TopNav.module.css'
 
 function TopNav() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,7 +31,8 @@ function TopNav() {
 
   return (
     <div className="flex flex-wrap fixed z-50 bg-white w-full text-center transition-all duration-[1s] mt-5 ">
-      <div className={`${classes.topMenu} isScrolled? "bg-[#ffffff5e] dark:bg-[#faf8f81e]  backdrop-blur-[10px] shadow-[1px_1px_5px_rgba(8,3,3,0.11)] -top-5 "`}
+      <div
+        className={`${classes.topMenu} isScrolled? "bg-[#ffffff5e] dark:bg-[#faf8f81e]  backdrop-blur-[10px] shadow-[1px_1px_5px_rgba(8,3,3,0.11)] -top-5 "`}
       >
         <ul className="h-[35px] flex align-middle">
           <li>
@@ -55,7 +56,7 @@ function TopNav() {
             <a href="#blog">Blog</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <Buttons />
           </li>
           {/* <li>
             <a href="#downloading">Download CV</a>

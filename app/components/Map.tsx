@@ -1,12 +1,20 @@
 "use client";
 
-import { GoogleMap, useLoadScript } from "@react-google-maps/api";
+import {
+  CircleF,
+  GoogleMap,
+  MarkerF,
+  useLoadScript,
+} from "@react-google-maps/api";
 import type { NextPage } from "next";
 import { useMemo } from "react";
 
 const Home: NextPage = () => {
   const libraries = useMemo(() => ["placec"], []);
-  const mapCenter = useMemo(() => ({ lat: 22.716471, lng: 90.361313 }), []);
+  const mapCenter = useMemo(
+    () => ({ lat: 27.672932021393862, lng: 85.31184012689732 }),
+    []
+  );
 
   const mapOptions = useMemo<google.maps.MapOptions>(
     () => ({
@@ -38,7 +46,27 @@ const Home: NextPage = () => {
         mapTypeId={google.maps.MapTypeId.ROADMAP}
         mapContainerStyle={{ width: "800px", height: "800px" }}
         onLoad={() => console.log("Map Component Loaded...")}
-      />
+      >
+        <MarkerF
+          position={mapCenter}
+          onLoad={() => console.log("Marker Loaded")}
+        />
+        {[1000, 2500].map((radius, idx) => {
+          return (
+            <CircleF
+              key={idx}
+              center={mapCenter}
+              radius={radius}
+              onLoad={() => console.log("Circle Load...")}
+              options={{
+                fillColor: radius > 1000 ? "red" : "green",
+                strokeColor: radius > 1000 ? "red" : "green",
+                strokeOpacity: 0.8,
+              }}
+            />
+          );
+        })}
+      </GoogleMap>
     </div>
   );
 };

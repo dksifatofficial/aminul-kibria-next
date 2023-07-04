@@ -1,7 +1,6 @@
 .body {
   @apply w-[380px] h-[250px] overflow-hidden
   shadow-[1px_5px_10px_rgb(206,205,205)]
-  dark:shadow-[1px_5px_10px_rgb(26,25,25)]
   flex justify-center rounded-[10px];
 }
 .body img {

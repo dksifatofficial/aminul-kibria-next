@@ -22,7 +22,7 @@ function PortfolioContainer() {
         alt="img"
       />
 
-      <Header>
+      <Header className="mb-16">
         <h3>Portfolio</h3>
         <h2 className="dark:text-gray-100">My Amazing Works</h2>
         <p className="px-2 py-0 lg:py-0 lg:px-48 xl:px-80 xl:py-0">
@@ -31,7 +31,7 @@ function PortfolioContainer() {
         </p>
       </Header>
 
-      <div className="mx-0 my-12">
+      <div className="mx-0 my-12 hidden">
         <Menu>
           <li className="inline-block text-center not-italic font-medium px-4 py-0 text-gray-900 dark:text-gray-100">
             All

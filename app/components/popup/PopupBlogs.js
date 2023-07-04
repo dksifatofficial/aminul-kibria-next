@@ -1,20 +1,20 @@
+import Image from "next/image";
 import image1 from "../../assets/image/office_01.jpg";
 import image2 from "../../assets/image/office_02.jpg";
 import image3 from "../../assets/image/office_03.jpg";
-import classes from "../../styles/PopupBlogs.module.css";
 
 export function PopupBlog1() {
   return (
-    <div className={classes.container}>
-      <div className={classes.img}>
-        <img src={image1} alt="" />
+    <div className="w-full">
+      <div className="w-full h-[300px] overflow-hidden rounded-[10px]">
+        <Image className="w-full h-auto mt-[-100px]" src={image1} alt="" />
       </div>
-      <h4>
+      <h4 className="mt-10">
         Experienced Web Developer: Transforming Designs into Seamless User
         Experiences
       </h4>
-      <h6>Web development</h6>
-      <p>
+      <h6 className="text-[#777a8b]">Web development</h6>
+      <p className="text-[17px]">
         As a highly skilled and experienced Web developer with five years in the
         industry, I possess a deep understanding of web technologies and a
         proven track record of creating robust, user-friendly, and visually
@@ -40,15 +40,15 @@ export function PopupBlog1() {
 export function PopupBlog2() {
   return (
     <div>
-      <div className={classes.img}>
-        <img src={image2} alt="img" />
+      <div className="w-full h-[300px] overflow-hidden rounded-[10px]">
+        <Image className="w-full h-auto mt-[-100px]" src={image2} alt="img" />
       </div>
-      <h4>
+      <h4 className="mt-10">
         Experienced Branding Expert: Crafting Powerful Identities for Lasting
         Impressions
       </h4>
-      <h6>Branding</h6>
-      <p>
+      <h6 className="text-[#777a8b]">Branding</h6>
+      <p className="text-[17px]">
         As a seasoned branding expert with five years of experience, I possess a
         deep understanding of the intricacies involved in building and enhancing
         brand identities. I have successfully developed and implemented
@@ -60,7 +60,7 @@ export function PopupBlog2() {
         excel in creating visually captivating brand assets, including logos,
         color palettes, and typography. Additionally, my expertise extends to
         crafting compelling brand narratives and messaging that effectively
-        communicate clients' stories and values.
+        communicate client&apos;s stories and values.
         <br />
         <br />
         Through meticulous research, analysis, and strategic planning, I have
@@ -74,15 +74,15 @@ export function PopupBlog2() {
 export function PopupBlog3() {
   return (
     <div>
-      <div className={classes.img}>
-        <img src={image3} alt="img" />
+      <div className="w-full h-[300px] overflow-hidden rounded-[10px]">
+        <Image className="w-full h-auto mt-[-100px]" src={image3} alt="img" />
       </div>
-      <h4>
+      <h4 className="mt-10">
         Experienced Social Media Expert: Driving Engagement and Results Through
         Strategies
       </h4>
-      <h6>Social Media</h6>
-      <p>
+      <h6 className="text-[#777a8b]">Social Media</h6>
+      <p className="text-[17px]">
         As a seasoned Social Media expert with five years of experience, I bring
         a wealth of knowledge and expertise in leveraging various social
         platforms to drive engagement, reach, and conversions.

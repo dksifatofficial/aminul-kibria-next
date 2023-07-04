@@ -31,16 +31,16 @@ function TopNav() {
 
   return (
     <div className="flex flex-wrap fixed z-50 bg-white w-full text-center transition-all duration-[1s] mt-5 ">
-      <div className={`${classes.topMenu} ${isScrolled? classes.scrolled : ""}`}
+      <div className={`${classes.topMenu} isScrolled? "bg-[#ffffff5e] dark:bg-[#faf8f81e]  backdrop-blur-[10px] shadow-[1px_1px_5px_rgba(8,3,3,0.11)] -top-5 "`}
       >
-        <ul>
+        <ul className="h-[35px] flex align-middle">
           <li>
             <Link href={"https://aminulkibria.com"} target="_blank">
-              <Image src={AKicon} alt="" width="25" height="10" />
+              <Image src={AKicon} alt="" width="25" height="25" />
             </Link>
           </li>
           <li>
-            <a href="#banner">Home</a>
+            <Link href="#banner">Home</Link>
           </li>
           <li>
             <a href="#aboutMe">About</a>

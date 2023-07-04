@@ -1,80 +1,25 @@
-.topNavBar {
-  display: flex;
-  flex-wrap: wrap;
-  position: fixed;
-  top: 20px;
-  z-index: 1000;
-  margin: 0;
-  background-color: transparent;
-  width: 100%;
-  text-align: center;
-  transition: all 1s;
-}
-.topMenu {
-  width: 90%;
-  text-align: center;
-  margin: 0;
-  font-size: 16px;
-  font-weight: 500;
-  transition: background-color 0.3s ease;
-  border-radius: 10px;
-  position: absolute;
-  right: 50%;
-  top: 50%;
-  transform: translate(50%, 0%);
-}
-.scrolled {
-  top: -20px !important;
-  background-color: #ffffff5e;
-  backdrop-filter: blur(10px);
-  box-shadow: 1px 1px 5px rgba(8, 3, 3, 0.11);
-}
-.ul {
-  margin: 0;
-  padding: 0 10px;
-}
-.topMenu li {
-  display: inline-block;
-  padding: 0 10px;
-}
-.topMenu li:first-child {
-  position: absolute;
-  left: 40px;
-  top: 65%;
-  transform: translate(-50%, -50%);
-  display: none;
-}
-.topMenu li:first-child img {
-  height: 25px;
-}
-.topMenu li:last-child {
-  text-align: center;
-  position: absolute;
-  padding: 0;
-  right: 10%;
-  top: 50%;
-  transform: translate(50%, -50%);
-  display: none;
-}
-.topMenu li a {
-  font-size: 13px;
-  color: #f75023;
-}
-.topMenu li a:hover {
-  color: #f75023;
-}
-.topMenu li a.active {
-  color: #f75023;
-}
 
-@media (min-width: 1024px) {
-  .topMenu li {
-    padding: 0 20px;
-  }
-  .topMenu li:first-child {
-    display: block;
-  }
-  .topMenu li:last-child {
-    display: block;
-  }
+.topMenu {
+  @apply w-[90%] h-[35px] text-center text-base font-medium 
+  transition-[background-color] duration-[0.3s] ease-[ease] 
+  absolute translate-x-2/4 translate-y-[0%] m-0 rounded-[10px] 
+  right-2/4 top-2/4 flex justify-center;
+}
+/* .scrolled {
+  @apply bg-[#ffffff5e] dark:bg-[#ffffff23]  backdrop-blur-[10px] shadow-[1px_1px_5px_rgba(8,3,3,0.11)] -top-5;
+} */
+.topMenu li {
+  @apply flex justify-around h-[35px]
+  first:absolute first:-translate-x-2/4 first:-translate-y-2/4 
+  first:hidden first:left-10 first:top-[48%] 
+  last:text-center last:absolute last:translate-x-2/4 last:-translate-y-2/4 
+  last:hidden last:p-0 last:right-10 last:top-[48%] 
+  lg:px-5 lg:first:block lg:last:block;
+}
+/* .topMenu li:first-child img {
+  @apply h-[25px] w-[25px];
+} */
+.topMenu li a {
+  @apply text-[13px] text-[#f75023] hover:text-[#f72323] 
+  flex align-middle p-1;
 }

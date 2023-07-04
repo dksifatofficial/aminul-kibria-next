@@ -14,7 +14,7 @@
   first:hidden first:left-10 first:top-[48%] 
   last:text-center last:absolute last:translate-x-2/4 last:-translate-y-2/4 
   last:hidden last:p-0 last:right-10 last:top-[48%] 
-  lg:px-5 lg:first:block lg:last:block;
+  lg:px-5 lg:first:block;
 }
 /* .topMenu li:first-child img {
   @apply h-[25px] w-[25px];

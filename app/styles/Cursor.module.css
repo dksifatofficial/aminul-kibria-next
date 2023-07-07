@@ -1,0 +1,36 @@
+.cursor1,
+.cursor2 {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  background-size: cover;
+  display: none;
+}
+.cursor1 {
+  margin-left: -6px;
+  margin-top: -70px;
+  color: #f75023;
+  font-size: 55px;
+  text-align: center;
+  padding: 0;
+  transition: 0.01s ease;
+  display: none !important;
+}
+.cursor2 {
+  width: 30px;
+  height: 30px;
+  margin-left: -15px;
+  margin-top: -15px;
+  border: 1px solid #f75023;
+  border-radius: 50%;
+  transition: 0.08s ease;
+  display: none !important;
+}
+@media (min-width: 1024px) {
+  .cursor1 {
+    display: block !important;
+  }
+  .cursor2 {
+    display: block !important;
+  }
+}

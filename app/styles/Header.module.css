@@ -1,0 +1,12 @@
+.header {
+  @apply text-center w-full relative;
+}
+.header h2 {
+  @apply text-[40px] not-italic font-semibold text-gray-900;
+}
+.header h3 {
+  @apply text-[25px] not-italic font-medium text-[#f75023];
+}
+.header p {
+  @apply text-lg not-italic text-[#777a8b];
+}

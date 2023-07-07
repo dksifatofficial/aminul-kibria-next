@@ -1,0 +1,25 @@
+
+.topMenu {
+  @apply w-[90%] h-[35px] text-center text-base font-medium 
+  transition-[background-color] duration-[0.3s] ease-[ease] 
+  absolute translate-x-2/4 translate-y-[0%] m-0 rounded-[10px] 
+  right-2/4 top-2/4 flex justify-center;
+}
+/* .scrolled {
+  @apply bg-[#ffffff5e] dark:bg-[#ffffff23]  backdrop-blur-[10px] shadow-[1px_1px_5px_rgba(8,3,3,0.11)] -top-5;
+} */
+.topMenu li {
+  @apply flex justify-around h-[35px]
+  first:absolute first:-translate-x-2/4 first:-translate-y-2/4 
+  first:hidden first:left-10 first:top-[48%] 
+  last:text-center last:absolute last:translate-x-2/4 last:-translate-y-2/4 
+  last:hidden last:p-0 last:right-10 last:top-[48%] 
+  lg:px-5 lg:first:block;
+}
+/* .topMenu li:first-child img {
+  @apply h-[25px] w-[25px];
+} */
+.topMenu li a {
+  @apply text-[13px] text-[#f75023] hover:text-[#f72323] 
+  flex align-middle p-1;
+}

@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    border: 2px dotted black;
+    height: 300px;
+    position: relative;
+}
+.container h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.back {
+    margin: -50px 0;
+    color: rgb(106, 109, 109);
+    position: absolute;
+}
+.back:hover {
+    color: #f75023;
+}

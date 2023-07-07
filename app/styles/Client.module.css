@@ -1,0 +1,12 @@
+.container {
+  @apply relative h-[75px] w-[250px];
+}
+.container img {
+  @apply absolute h-[70px] w-[70px] translate-x-0 -translate-y-2/4 rounded-[50%] left-0 top-2/4;
+}
+.container h5 {
+  @apply absolute translate-x-0 -translate-y-2/4 text-[rgb(54,52,52)] left-[90px] top-[35%];
+}
+.container h6 {
+  @apply absolute translate-x-0 -translate-y-2/4 text-[rgb(87,86,86)] left-[90px] top-[65%];
+}

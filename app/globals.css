@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  @apply box-border m-0 p-0;
+}
+
+html,
+body {
+  @apply max-w-[100vw] overflow-x-hidden;
+}
+
+body {
+  @apply w-full transition-all duration-[0.5s] leading-[1.80857] font-[normal] text-sm m-0;
+}
+
+a {
+  @apply outline-none no-underline ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply tracking-[0] not-italic font-medium leading-[normal] relative m-0 pt-0 pb-2.5 px-0;
+}
+p {
+  @apply text-lg text-[#777a8b] not-italic;
+}
+h1 {
+  @apply text-[50px];
+}
+h2 {
+  @apply text-[40px] not-italic font-semibold;
+}
+h3 {
+  @apply text-[25px] not-italic font-medium;
+}
+h4 {
+  @apply text-xl;
+}
+h5 {
+  @apply text-lg;
+}
+h6 {
+  @apply text-sm;
+}
+*,
+*::after,
+*::before {
+  @apply box-border;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  @apply no-underline opacity-100;
+}
+.row {
+  @apply flex flex-wrap;
+}
+/*--End Basic section --*/
+.layout {
+  @apply flex flex-wrap w-full;
+}
+.column {
+  @apply grid grid-cols-[1fr_1fr] lg:grid-cols-[1fr] ;
+  /* gap: 1rem; */
+}
+.info {
+  @apply text-center mt-4;
+}
+.error {
+  @apply bg-[color:var(--dangerRed)] flex items-center mt-2.5 px-[1.2rem] py-[0.6rem] rounded-lg;
+}
+.active {
+  @apply text-[#f75023];
+}
+.icon {
+  @apply text-[rgb(3,107,55)] text-center w-full text-[25px];
+}

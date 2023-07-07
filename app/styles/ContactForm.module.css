@@ -1,0 +1,36 @@
+.form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: sans-serif;
+  outline: none;
+  display: inline-block;
+  margin: 5px;
+}
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: sans-serif;
+  outline: none;
+  margin: 5px 5px 10px;
+}
+
+@media (min-width: 1024px) {
+  .form input {
+    width: 45%;
+  }
+  .form textarea {
+    width: 92%;
+  }
+}

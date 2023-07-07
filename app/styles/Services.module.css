@@ -1,0 +1,13 @@
+
+.img {
+  @apply float-left w-[10%] lg:w-[15%];
+}
+.text {
+  @apply float-right w-[90%] pl-5 lg:w-[84%] lg:pl-[25px];
+}
+.text p {
+  @apply text-justify;
+}
+.text span {
+  @apply text-[#f75023];
+}

@@ -35,7 +35,7 @@ function TopContainer() {
         <div className="w-full grid justify-center mt-8 lg:align-middle lg:w-full lg:h-12 lg:flex lg:justify-start ">
           <a className="" href="#aboutMe">
             <ShutterUpButton>
-              <span>About Us</span>
+              <span>About</span>
             </ShutterUpButton>
           </a>
           <div className="mt-8 ml-0 lg:mt-0 lg:p-0 lg:ml-10 lg:align-middle lg:flex">

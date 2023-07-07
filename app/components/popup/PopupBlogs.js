@@ -41,9 +41,9 @@ export function PopupBlog2() {
   return (
     <div>
       <div className="w-full h-[300px] overflow-hidden rounded-[10px]">
-        <Image className="w-full h-auto mt-[-100px]" src={image2} alt="img" />
+        <Image className="w-full h-auto" src={image2} alt="img" />
       </div>
-      <h4 className="mt-10">
+      <h4 className="mt-[20px] lg:mt-10">
         Experienced Branding Expert: Crafting Powerful Identities for Lasting
         Impressions
       </h4>
@@ -75,9 +75,9 @@ export function PopupBlog3() {
   return (
     <div>
       <div className="w-full h-[300px] overflow-hidden rounded-[10px]">
-        <Image className="w-full h-auto mt-[-100px]" src={image3} alt="img" />
+        <Image className="w-full h-auto" src={image3} alt="img" />
       </div>
-      <h4 className="mt-10">
+      <h4 className="mt-[20px] lg:mt-10">
         Experienced Social Media Expert: Driving Engagement and Results Through
         Strategies
       </h4>

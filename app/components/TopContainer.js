@@ -30,7 +30,7 @@ function TopContainer() {
         </h4>
         <p className="px-4 py-0 mb-2 lg:text-left lg:p-0 xl:w-[25rem]">
           I&apos;m also creative designer, and I&apos;m very passionate and
-          dedicated to my work.
+          dedicated to my work
         </p>
         <div className="w-full grid justify-center mt-8 lg:align-middle lg:w-full lg:h-12 lg:flex lg:justify-start ">
           <a className="" href="#aboutMe">

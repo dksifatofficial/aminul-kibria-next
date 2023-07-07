@@ -9,7 +9,7 @@ export function PopupBlog1() {
       <div className="w-full h-[300px] overflow-hidden rounded-[10px]">
         <Image className="w-full h-auto" src={image1} alt="" />
       </div>
-      <h4 className="mt-10">
+      <h4 className="mt-[20px] lg:mt-10">
         Experienced Web Developer: Transforming Designs into Seamless User
         Experiences
       </h4>

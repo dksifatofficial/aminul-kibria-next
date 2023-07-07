@@ -22,7 +22,7 @@ function TopContainer() {
       <div className="w-full h-auto float-left text-center mt-28 lg:w-6/12 lg:float-left lg:text-left lg:mt-28 lg:pt-12 lg:pb-0 lg:px-16">
         <h3 className="text-[#f75023] dark:text-[#40d6e0] font-medium p-0">Hello, I&apos;m</h3>
         <h1 className="font-[bold] text-black text-7xl p-0 mb-4 mt-4 dark:text-white">
-          DK Sifat
+          Aminul Kibria
         </h1>
         <h4 className="text-zinc-600 mb-2 dark:text-zinc-400">
           A <span className="text-[#30c367]">Front-End Developer</span> and{" "}
@@ -35,7 +35,7 @@ function TopContainer() {
         <div className="w-full grid justify-center mt-8 lg:align-middle lg:w-full lg:h-12 lg:flex lg:justify-start ">
           <a className="" href="#aboutMe">
             <ShutterUpButton>
-              <span>About o</span>
+              <span>About Me</span>
             </ShutterUpButton>
           </a>
           <div className="mt-8 ml-0 lg:mt-0 lg:p-0 lg:ml-10 lg:align-middle lg:flex">

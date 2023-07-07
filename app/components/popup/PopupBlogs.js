@@ -6,7 +6,7 @@ import image3 from "../../assets/image/office_03.jpg";
 export function PopupBlog1() {
   return (
     <div className="w-full">
-      <div className="w-full h-[300px] overflow-hidden rounded-[10px]">
+      <div className="w-full h-auto overflow-hidden rounded-[10px]">
         <Image className="w-full h-auto" src={image1} alt="" />
       </div>
       <h4 className="mt-[20px] lg:mt-10">
@@ -40,7 +40,7 @@ export function PopupBlog1() {
 export function PopupBlog2() {
   return (
     <div>
-      <div className="w-full h-[300px] overflow-hidden rounded-[10px]">
+      <div className="w-full h-auto overflow-hidden rounded-[10px]">
         <Image className="w-full h-auto" src={image2} alt="img" />
       </div>
       <h4 className="mt-[20px] lg:mt-10">
@@ -74,7 +74,7 @@ export function PopupBlog2() {
 export function PopupBlog3() {
   return (
     <div>
-      <div className="w-full h-[300px] overflow-hidden rounded-[10px]">
+      <div className="w-full h-auto overflow-hidden rounded-[10px]">
         <Image className="w-full h-auto" src={image3} alt="img" />
       </div>
       <h4 className="mt-[20px] lg:mt-10">

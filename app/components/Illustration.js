@@ -1,11 +1,12 @@
 import signupImage from '../assets/logo/signup.svg'
-import classes from '../styles/Illustration.module.css'
 import Image from "next/image";
 
 function Illustration() {
   return (
-    <div className={classes.illustration}>
-        <Image src={signupImage} alt='Signup' />
+    <div className="px-16 py-4 lg:hidden">
+        <Image
+        className="max-w-[70%]"
+        src={signupImage} alt='Signup' />
     </div>
   )
 }

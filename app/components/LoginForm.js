@@ -53,7 +53,7 @@ function LoginForm() {
         required
       />
 
-      <ShutterUpButton className="h-10" type="submit" >
+      <ShutterUpButton type="submit" >
       {/* disabled={loading} */}
         <span>Submit Now</span>
       </ShutterUpButton>

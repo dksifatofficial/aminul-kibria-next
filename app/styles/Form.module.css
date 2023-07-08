@@ -1,21 +1,14 @@
-/* form component */
 .form {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 2rem 0;
+  @apply grid grid-cols-[1fr] px-0 py-8;
+}
+.form label {
+  @apply mt-4;
+}
+.form .button {
+  @apply h-11 mt-8;
+}
+@media only screen and (max-width: 600px) {
+  .form {
+    @apply grid-cols-[1fr];
   }
-  
-  .form label {
-    margin-top: 1rem;
-  }
-  
-  .form .button {
-    height: 44px;
-    margin-top: 2rem;
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .form {
-      grid-template-columns: 1fr;
-    }
-  }
+}

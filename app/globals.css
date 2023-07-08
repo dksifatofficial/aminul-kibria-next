@@ -61,9 +61,9 @@ h5 a,
 h6 a {
   @apply no-underline opacity-100;
 }
-.row {
+/* .row {
   @apply flex flex-wrap;
-}
+} */
 /*--End Basic section --*/
 .layout {
   @apply flex flex-wrap w-full;

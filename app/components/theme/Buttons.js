@@ -16,7 +16,7 @@ export default function Buttons() {
         width="25"
         onClick={() => setTheme("light")}
         src={icon2}
-        alt=""
+        alt="light"
          />
         // <svg
         //   onClick={() => setTheme("light")}
@@ -39,7 +39,7 @@ export default function Buttons() {
         width="25"
         onClick={() => setTheme("dark")}
         src={icon1}
-        alt=""
+        alt="dark"
          />
         // <svg
         //   onClick={() => setTheme("dark")}

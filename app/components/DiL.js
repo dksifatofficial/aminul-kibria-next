@@ -21,15 +21,15 @@ function DiL() {
           </Header>
           <div className="justify-center">
             <PercentageBar progress={95}>
-              <h6>REACT</h6>
+              <h6 className="text-[#000] dark:text-[#fff] absolute left-0 top-0">REACT</h6>
             </PercentageBar>
 
             <PercentageBar progress={90}>
-              <h6>HTML/CSS</h6>
+              <h6 className="text-[#000] dark:text-[#fff] absolute left-0 top-0">HTML/CSS</h6>
             </PercentageBar>
 
             <PercentageBar progress={85}>
-              <h6>JavaScript</h6>
+              <h6 className="text-[#000] dark:text-[#fff] absolute left-0 top-0">JavaScript</h6>
             </PercentageBar>
           </div>
         </div>

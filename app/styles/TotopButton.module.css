@@ -1,31 +1,6 @@
-.totopButton {
-  display: none;
-  position: fixed;
-  bottom: 40px;
-  right: 20px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: transparent;
-  cursor: pointer;
-}
-.totopButton::before {
-  background-color: transparent;
-}
-.totopButton:hover {
-  background-color: transparent;
-}
-.totopButton:hover::before {
-  background-color: transparent;
-}
+
 .totopButton p {
+  @apply text-[#f75023] text-xs font-[normal];
   writing-mode: vertical-lr;
-  color: #f75023;
-  font-size: 12px;
-  font-weight: normal;
 }
-.topButton .icon {
-  color: #f75023;
-  margin-left: 2px;
-  margin-bottom: 5px;
-}
+

@@ -1,7 +1,7 @@
+import Image from "next/image";
 import image1 from "../assets/icon/icon_16.png";
 import image2 from "../assets/icon/icon_17.png";
 import image3 from "../assets/icon/icon_18.png";
-import Image from "next/image";
 
 function quality() {
   return (
@@ -33,7 +33,7 @@ function quality() {
             and originality to every project.
           </p>
         </div>
-        </div>
+      </div>
     </div>
   );
 }

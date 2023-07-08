@@ -69,13 +69,12 @@ h6 a {
 .layout {
   @apply flex flex-wrap w-full;
 }
-.column {
+/* .column {
   @apply grid grid-cols-[1fr_1fr] lg:grid-cols-[1fr] ;
-  /* gap: 1rem; */
 }
 .info {
   @apply text-center mt-4;
-}
+} */
 .error {
   @apply bg-[color:var(--dangerRed)] flex items-center mt-2.5 px-[1.2rem] py-[0.6rem] rounded-lg;
 }

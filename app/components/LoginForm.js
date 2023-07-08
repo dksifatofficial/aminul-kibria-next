@@ -60,7 +60,7 @@ function LoginForm() {
 
       {/* {error && <p className="error">{error}</p>} */}
 
-      <div className="info">
+      <div className="text-center mt-4 text-[#000] dark:text-[#fff]">
         Don&apos;t have an account?{" "}
         <Link href="/signup">
           <span className="text-[#f75023]">Signup</span>

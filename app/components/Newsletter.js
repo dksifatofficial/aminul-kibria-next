@@ -1,4 +1,4 @@
-// import LoginForm from "./LoginForm";
+import LoginForm from "./LoginForm";
 
 function Newsletter() {
   return (
@@ -11,7 +11,7 @@ function Newsletter() {
         </p>
       </div>
       <div className="float-right flex-[40%] bg-transparent pt-5 pb-0 px-[50px] lg:pt-[50px] lg:pb-0 lg:px-20">
-        {/* <LoginForm></LoginForm> */}
+        <LoginForm></LoginForm>
       </div>
     </div>
   );

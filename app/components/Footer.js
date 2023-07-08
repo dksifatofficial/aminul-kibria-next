@@ -26,8 +26,8 @@ function Footer() {
       <div className="w-full text-center px-2.5 py-[5px]">
         <p className="md:text-base">
           Compiled with NEXT-js by{" "}
-          <Link className="text-[#f75023]" href="/">
-            <span className="hover:text-[#111111] hover:cursor-pointer">
+          <Link className="text-[#000]" href="/">
+            <span className="hover:text-[#f75023] hover:cursor-pointer">
               <b>Aminul Kibria</b>
             </span>
           </Link>{" "}

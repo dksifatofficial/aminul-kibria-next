@@ -1,5 +1,6 @@
+"use client";
+
 import React, { useEffect } from "react";
-import classes from "../styles/Cursor.module.css";
 
 function Cursor() {
   useEffect(() => {
@@ -28,10 +29,20 @@ function Cursor() {
 
   return (
     <>
-      <div className={classes.cursor1} id="cursor1">
+      <div
+        className="fixed pointer-events-none z-[9999] bg-cover hidden 
+      mt-[-70px] text-[#f75023] text-[55px] text-center transition-[0.01s] 
+      duration-[ease] -ml-1.5 p-0 lg:block"
+        id="cursor1"
+      >
         .
       </div>
-      <div className={classes.cursor2} id="cursor2"></div>
+      <div
+        className="fixed pointer-events-none z-[9999] bg-cover hidden 
+      w-[30px] h-[30px] ml-[-15px] mt-[-15px] border transition-[0.08s] 
+      duration-[ease] rounded-[50%] border-solid border-[#f75023] lg:block"
+        id="cursor2"
+      ></div>
     </>
   );
 }

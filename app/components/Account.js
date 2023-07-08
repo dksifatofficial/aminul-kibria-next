@@ -1,22 +1,24 @@
 import Link from "next/link";
 import { useAuth } from "../contexts/AuthContext";
-import classes from "../styles/Account.module.css";
 
 function Account() {
   const { currentUser, logout } = useAuth();
   return (
-    <div className={classes.account}>
+    <div className="flex gap-2 justify-end items-center mr-[-15px] text-xs w-[200px]">
       {currentUser ? (
         <>
           <span
-            className={`${classes.accIcon} material-icons-outlined`}
+            className="text-base text-[#111] material-icons-outlined"
             title="Account"
           >
             account_circle
           </span>
-          <span className={classes.accName}>Hello {" "} {currentUser.displayName}</span>
+          <span className="text-[#f75023]">
+            Hello {currentUser.displayName}
+          </span>
           <span
-            className={`${classes.logOutIcon} material-icons-outlined`}
+            className="text-[15px] text-[#777a8b] hover:text-[15px] 
+            hover:text-[#111] material-icons-outlined cursor-pointer"
             title="Logout"
             onClick={logout}
           >
@@ -26,8 +28,12 @@ function Account() {
         </>
       ) : (
         <>
-          <Link className={classes.acc} to="/signup">Signup</Link>
-          <Link className={classes.acc} to="/login">Login</Link>
+          <Link className="text-[#111] hover:text-[#f75023]" to="/signup">
+            Signup
+          </Link>
+          <Link className="text-[#111] hover:text-[#f75023]" to="/login">
+            Login
+          </Link>
         </>
       )}
     </div>

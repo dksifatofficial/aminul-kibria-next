@@ -11,7 +11,7 @@ function Contact() {
       <Image className="absolute hidden right-0 bottom-0 lg:block" src={image2} alt="" />
       <Header>
         <h3>Contact Me</h3>
-        <h2>I Want To Hear From You</h2>
+        <h2 className="dark:text-[#fff]">I Want To Hear From You</h2>
         <p className="lg:px-48 lg:py-0 xl:px-80 xl:py-0">
           Please fill out the form on this section to contact with me. Or call
           between 9:00 a.m. and 9:00 p.m. ET, Saturday through Thursday

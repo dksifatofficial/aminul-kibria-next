@@ -1,6 +1,6 @@
 import AboutMe from "./components/AboutMe";
 import Blog from "./components/Blog";
-// import Contact from "./components/Contact";
+import Contact from "./components/Contact";
 import DiL from "./components/DiL";
 // import Map from "./components/Map";
 import Newsletter from "./components/Newsletter";
@@ -22,7 +22,7 @@ function Home() {
       <Services />
       <Blog />
       <Newsletter />
-      {/* <Contact /> */}
+      <Contact />
       {/* <Map /> */}
     </main>
   );

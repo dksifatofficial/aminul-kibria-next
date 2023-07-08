@@ -21,8 +21,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "sharp": "^0.32.1",
-    "use-places-autocomplete": "^4.0.0",
-    "@import": "css-writing-mode"
+    "use-places-autocomplete": "^4.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.22.5",

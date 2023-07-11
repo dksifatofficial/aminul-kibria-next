@@ -6,7 +6,6 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  name:'ir-site-verification-token'( value='-730966598'),
   title: "Aminul Kibria",
   description:
     "Most common methods for designing websites that work well on desktop is responsive and adaptive design",

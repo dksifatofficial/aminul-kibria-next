@@ -10,21 +10,39 @@ import Services from "./components/Services";
 import TestimonialContainer from "./components/TestimonialContainer";
 import TopContainer from "./components/TopContainer";
 
+
+export const metadata = {
+  title: "Aminul Kibria",
+  description:
+    "Most common methods for designing websites that work well on desktop is responsive and adaptive design",
+  author: "Aminul Kibria",
+  keywords:
+    "Web design, Web development, JavaScript, Aminul Kibria, Aminul, Kibria, DK Sifat",
+};
+
 function Home() {
   return (
-    <main >
-      <TopContainer />
-      <Qualitys />
-      <AboutMe />
-      <PortfolioContainer />
-      <TestimonialContainer />
-      <DiL />
-      <Services />
-      <Blog />
-      <Newsletter />
-      <Contact />
-      {/* <Map /> */}
-    </main>
+    <div>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="zR5qCSfYDMVEuUOdhM9LAd90Ri34mSdptLYTmtbPXdE"
+        />
+      </head>
+      <main>
+        <TopContainer />
+        <Qualitys />
+        <AboutMe />
+        <PortfolioContainer />
+        <TestimonialContainer />
+        <DiL />
+        <Services />
+        <Blog />
+        <Newsletter />
+        <Contact />
+        {/* <Map /> */}
+      </main>
+    </div>
   );
 }
 

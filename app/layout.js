@@ -17,6 +17,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="zR5qCSfYDMVEuUOdhM9LAd90Ri34mSdptLYTmtbPXdE"
+        />
+      </head>
       <body className={`${inter.className} ${"dark:bg-black bg-white"}`}>
         <TopNav />
         {children}

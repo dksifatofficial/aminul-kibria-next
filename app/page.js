@@ -22,13 +22,7 @@ export const metadata = {
 
 function Home() {
   return (
-    <div>
-      <head>
-        <meta
-          name="google-site-verification"
-          content="zR5qCSfYDMVEuUOdhM9LAd90Ri34mSdptLYTmtbPXdE"
-        />
-      </head>
+    <>
       <main>
         <TopContainer />
         <Qualitys />
@@ -42,7 +36,7 @@ function Home() {
         <Contact />
         {/* <Map /> */}
       </main>
-    </div>
+    </>
   );
 }
 

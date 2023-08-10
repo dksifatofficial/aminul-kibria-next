@@ -8,7 +8,10 @@ import Socialicon from "./Socialicon";
 
 function TopContainer() {
   return (
-    <div className="w-full h-auto grid justify-center border border-solid border-[rgba(0,0,0,0)] lg:block lg:pl-12 xl:pl-24" id="banner">
+    <div
+      className="w-full h-auto grid justify-center border border-solid border-[rgba(0,0,0,0)] lg:block lg:pl-12 xl:pl-24"
+      id="banner"
+    >
       <Image
         className="absolute z-[-111] opacity-50 hidden right-0 top-0 lg:block lg:opacity-25"
         src={image2}
@@ -20,13 +23,16 @@ function TopContainer() {
         alt=""
       />
       <div className="w-full h-auto float-left text-center mt-28 lg:w-6/12 lg:float-left lg:text-left lg:mt-28 lg:pt-12 lg:pb-0 lg:px-16">
-        <h3 className="text-[#f75023] dark:text-[#40d6e0] font-medium p-0">Hello, I&apos;m</h3>
+        <h3 className="text-[#f75023] dark:text-[#40d6e0] font-medium p-0">
+          Hello, I&apos;m
+        </h3>
         <h1 className="font-[bold] text-black text-7xl p-0 mb-4 mt-4 dark:text-white">
           Aminul Kibria
         </h1>
         <h4 className="text-zinc-600 mb-2 dark:text-zinc-400">
-          A <span className="text-[#30c367]">Front-End Developer</span> and{" "}
-          <span className="text-[#8e78f0]">Programmer</span>
+          <span className="text-[#30c367]">Front-End Developer,</span>{" "}
+          <span className="text-[#8e78f0]">Programmer</span> and <br />
+          <span className="text-[#50cddd]">SEO Specialist</span>
         </h4>
         <p className="px-4 py-0 mb-2 lg:text-left lg:p-0 xl:w-[25rem]">
           I&apos;m also creative designer, and I&apos;m very passionate and

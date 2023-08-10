@@ -31,7 +31,7 @@ function Footer() {
               <b>Aminul Kibria</b>
             </span>
           </Link>{" "}
-          © 2023
+          © 2022
         </p>
       </div>
     </div>

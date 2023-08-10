@@ -8,11 +8,12 @@ import image4 from "../assets/image/project_004.jpg";
 import image7 from "../assets/image/project_007.jpg";
 import image8 from "../assets/image/project_008.jpg";
 import image3 from "../assets/image/project_009.jpg";
-import image5 from "../assets/image/project_010.jpg";
+import image5 from "../assets/image/project_013.jpg";
 import image9 from "../assets/image/project_011.jpg";
 import image6 from "../assets/image/project_012.jpg";
 import Portfolio from "./Portfolio";
 import Popup from "./popup/Popup";
+import {PopupPortfolio1} from './popup/PopupPortfolio'
 
 function Portfolios() {
   const [popups, setPopups] = useState([]);
@@ -100,7 +101,7 @@ function Portfolios() {
 
       <div
         onClick={() =>
-          handlePopupToggle(<Image src={image5} alt="project-img" />)
+          handlePopupToggle(<PopupPortfolio1 />)
         }
       >
         <Portfolio>

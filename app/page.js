@@ -12,7 +12,7 @@ import TopContainer from "./components/TopContainer";
 
 
 export const metadata = {
-  title: "Aminul Kibria",
+  title: "Aminul Kibria - Web Programmer & Digital Marketer",
   description:
     "Most common methods for designing websites that work well on desktop is responsive and adaptive design",
   author: "Aminul Kibria",

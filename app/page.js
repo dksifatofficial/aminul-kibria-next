@@ -1,4 +1,4 @@
-'use client'
+// 'use client'
 
 import AboutMe from "./components/AboutMe";
 import Blog from "./components/Blog";

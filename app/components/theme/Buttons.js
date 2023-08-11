@@ -1,7 +1,7 @@
 "use client";
 
 import useDarkMode from "../../hooks/useDarkMode";
-import Image from "next/dist/client/image";
+import Image from "next/image";
 import icon1 from '../../assets/icon/toggle_dark.png';
 import icon2 from '../../assets/icon/toggle_light.png';
 

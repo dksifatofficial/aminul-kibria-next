@@ -1,3 +1,5 @@
+'use client'
+
 import AboutMe from "./components/AboutMe";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
@@ -9,7 +11,8 @@ import Qualitys from "./components/Qualitys";
 import Services from "./components/Services";
 import TestimonialContainer from "./components/TestimonialContainer";
 import TopContainer from "./components/TopContainer";
-
+// import SideMenu from "./nextUI/SideMenu";
+// import MainMenu from './nextUI/MainMenu'
 
 export const metadata = {
   title: "Aminul Kibria - Web Programmer & Digital Marketer",
@@ -25,6 +28,8 @@ function Home() {
     <>
       <main>
         <TopContainer />
+        {/* <SideMenu /> */}
+        {/* <MainMenu /> */}
         <Qualitys />
         <AboutMe />
         <PortfolioContainer />

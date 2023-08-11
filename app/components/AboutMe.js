@@ -26,8 +26,9 @@ function AboutMe() {
         />
 
         <div
-          className="text-left bg-white absolute transition-[0.5s] duration-[ease] p-4 rounded-lg hover:shadow-[-0.5rem_-0.5rem_0.5rem_rgb(49,48,48)] hover:m-2
-        left-4 top-12 lg:left-0 lg:top-[150px]"
+          className="text-left bg-white absolute transition-[0.5s] duration-[ease] p-4 rounded-lg 
+          hover:shadow-[-0.5rem_-0.5rem_0.5rem_rgb(49,48,48)] hover:m-2
+          left-4 top-12 lg:left-0 lg:top-[150px]"
         >
           <h2
             className="absolute font-semibold text-[50px]"
@@ -65,7 +66,9 @@ function AboutMe() {
        py-16 lg:pl-16 lg:pr-0 lg:pt-4 lg:pb-0 xl:pl-16 xl:pr-0 xl:pt-8 xl:pb-0"
       >
         <h3 className=" text-[#f75023]">I&apos;m a Designer</h3>
-        <h2 className="text-gray-900 dark:text-gray-100">I Can Design Anything You Want</h2>
+        <h2 className="text-gray-900 dark:text-gray-100">
+          I Can Design Anything You Want
+        </h2>
         <p className="mb-12">
           As a versatile and skilled designer, I can bring any vision to life
           with my expertise in various design disciplines. From logos to

@@ -1,3 +1,6 @@
+"use client";
+
+import { Button, Link } from "@nextui-org/react";
 import Image from "next/image";
 import image1 from "../assets/icon/icon_05.png";
 import image2 from "../assets/icon/icon_15.png";
@@ -51,6 +54,17 @@ function PortfolioContainer() {
         </Menu>
       </div>
       <Portfolios />
+      <div className="w-full mt-6 flex justify-center">
+        <Link href="/showcase" target="_blank" rel="noopener noreferrer">
+          <Button
+            auto
+            flat
+            className="text-white font-semibold hover:bg-blue-400 bg-blue-600 rounded-[5px] py-1 px-4"
+          >
+            See my Showcase
+          </Button>
+        </Link>
+      </div>
     </div>
   );
 }

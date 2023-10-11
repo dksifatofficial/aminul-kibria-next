@@ -1,44 +1,56 @@
-import Image from "next/image";
-import off_20 from "../assets/image/20-percent-off.png";
-import Broth_Powder from "../assets/image/Left Coast Performance Bone Broth Powder.jpg";
+import "bootstrap/dist/css/bootstrap.css";
+import Link from "next/link";
+import Script from "next/script";
 
-const AmazonLink = () => {
+const BootstrapTest = () => {
   return (
-    <div className=" w-full grid justify-center align-middle">
-    <div
-      className=" relative w-auto h-auto grid bg-[#fff] dark:bg-[#000] text-2xl text-bold 
-    align-middle justify-center mt-[100px] mb-[100px] justify-items-center"
-    >
-      <Image
-      className="absolute top-[70px] left-[-25px]"
-      height="50"
-      width="120"
-      src={off_20}
-      alt="20% off"
+    <>
+      <Script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"
       />
-      {/* <p
-        className=" py-[20px] px-[20px] rounded-[100%] ring-2 ring-red-500 
-      absolute top-[70px] font-bold text-red-500"
-      >
-        20% off
-      </p> */}
-      <Image
-        className="rounded-[10px]"
-        height="400"
-        width="250"
-        src={Broth_Powder}
-        alt="Left Coast Performance Bone Broth Powder"
-      />
-      <a
-        className=" h-auto bg-[#000] text-[#fff] dark:bg-[#fff] dark:text-[#000] rounded-[10px] py-[5px] px-[20px] "
-        target="_blank"
-        href="https://www.amazon.com/b?_encoding=UTF8&tag=20018e-20&linkCode=ur2&linkId=df72c767da0a6d401f106b59608531c7&camp=1789&creative=9325&node=3764441"
-      >
-        Diet and Sports Nutrition
-      </a>
-    </div>
-    </div>
+      <div className="container border mt-[100px]">
+        <Link className="btn btn-outline-primary" href="#">
+          <button className="">Hello World</button>
+        </Link>
+        <h1 className="mx-auto bg-slate-600 w-[350px] text-center">
+          This is heading 1
+        </h1>
+        <div className="alert alert-danger alert-dismissiable" role="alert">
+          <button
+            className="btn-close"
+            data-bs-dismiss="alert"
+            aria-label="Close"
+          ></button>
+          Close me... Please!
+        </div>
+
+        {/* customer review section start */}
+        <div className="customer-review bg-light text-center">
+          <div className="title text-center mb-3">
+            <h3 className="font-weight-border">Customer Review</h3>
+          </div>
+
+          <div className="row">
+            <div className="col-lg-4">
+              <blockquote className="blockquote">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna{" "}
+                  <abbr title="Dragon Killer">DK</abbr>.
+                </p>
+                <footer className="blockquote-footer">
+                  Aminul Kibria an <cite>Web Developer</cite>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        {/* customer review section end */}
+      </div>
+    </>
   );
 };
 
-export default AmazonLink;
+export default BootstrapTest;

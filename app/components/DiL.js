@@ -31,6 +31,10 @@ function DiL() {
             <PercentageBar progress={85}>
               <h6 className="text-[#000] dark:text-[#fff] absolute left-0 top-0">JavaScript</h6>
             </PercentageBar>
+
+            <PercentageBar progress={50}>
+              <h6 className="text-[#000] dark:text-[#fff] absolute left-0 top-0">PHP</h6>
+            </PercentageBar>
           </div>
         </div>
         <div className="w-full h-auto grid justify-center lg:w-[45%] lg:relative">

@@ -32,7 +32,7 @@ function DiL() {
               <h6 className="text-[#000] dark:text-[#fff] absolute left-0 top-0">JavaScript</h6>
             </PercentageBar>
 
-            <PercentageBar progress={50}>
+            <PercentageBar progress={30}>
               <h6 className="text-[#000] dark:text-[#fff] absolute left-0 top-0">PHP</h6>
             </PercentageBar>
           </div>
